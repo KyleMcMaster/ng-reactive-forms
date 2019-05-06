@@ -1,0 +1,22 @@
+<!-- <div class="container">
+  <h1>reactive forms demo</h1>
+  <textarea input type="text" [formControl]="myFormControl"></textarea><br>
+  <span style="" *ngIf="myFormControl.pristine">pristine</span>
+  <span style="color: blue" *ngIf="myFormControl.dirty">dirty</span>
+  <span style="color: green" *ngIf="myFormControl.touched">touched</span>
+  <span style="color: purple" *ngIf="myFormControl.untouched">untouched</span>
+  <span style="color: yellow" *ngIf="myFormControl.dirty">dirty</span>
+   <span style="color: green" *ngIf="myFormControl.invalid">disabled</span>
+  <button class="btn btn-primary" [disabled]="myFormControl.invalid">tweet</button>
+  <label>{{ 280 - myFormControl.value.length }}</label>
+</div> -->
+
+<div>
+  <input type="email" formControlName="email">
+  <br>
+  <br>
+  <input type="text" formControlName="password">
+  <br>
+  <br>
+  <input type="text" formControlName="passwordConfirmation">
+</div>
